@@ -1,0 +1,53 @@
+body {
+	background-image: url("./gojo.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100dvh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 2rem;
+	border-radius: 5px;
+	min-height: 500px;
+	box-shadow: 2px 2px 10px white;
+}
+
+h1 {
+	font-family: "Poetsen One", sans-serif;
+	color: gold;
+	font-size: 3rem;
+	text-align: left;
+	margin-top: 0;
+	text-shadow: 2px 1px 3px black;
+}
+
+h2 {
+	font-family: "Poetsen One", sans-serif;
+	font-size: 2rem;
+	color: white;
+	text-shadow: -2px 1px 3px black;
+}
+
+p {
+	color: black;
+	font-size: 1.4rem;
+	font-family: roboto;
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
+p>span {
+
+}
+
+.pos {
+	color: green;
+}
+
+.neg {
+	color: red;
+}
