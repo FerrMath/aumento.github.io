@@ -19,8 +19,8 @@ function addNewClaro() {
 
 	div.innerText = "Claro, meu nobre!"
 
-	let left = getRand(window.innerWidth - 350);
-	let top = getRand(window.innerHeight - 100);
+	let left = getRand(Math.floor(window.innerWidth - 350))
+	let top = getRand(Math.floor(window.innerHeight - 100));
 
 	div.style.top = top + "px";
 	div.style.left = left + "px";
@@ -29,19 +29,16 @@ function addNewClaro() {
 }
 
 function trolei() {
-
 	if (first) {
 		first = false;
 		BAIT.classList.add("bait");
 	}
 
-	let left = getRand(window.innerWidth - 350);
-	let top = getRand(window.innerHeight - 100 );
+	let left = getRand(Math.floor(window.innerWidth - 350))
+	let top = getRand(Math.floor(window.innerHeight - 100));
 
 	BAIT.style.top = top + "px";
 	BAIT.style.left = left + "px";
 
 	addNewClaro()
-	
-
 }
